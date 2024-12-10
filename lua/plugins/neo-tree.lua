@@ -27,6 +27,9 @@ return {
 					hide_gitignored = false, -- Показывать файлы, игнорируемые .gitignore
 				},
 			},
+			window = {
+				width = 25
+			}
 		})
 	end,
 }
