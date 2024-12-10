@@ -21,6 +21,12 @@ return {
 		})
 		require("neo-tree").setup({
 			close_if_last_window = false,
+			filesystem = {
+				filtered_items = {
+					hide_dotfiles = false, -- Показывать скрытые файлы (файлы, начинающиеся с '.')
+					hide_gitignored = false, -- Показывать файлы, игнорируемые .gitignore
+				},
+			},
 		})
 	end,
 }
